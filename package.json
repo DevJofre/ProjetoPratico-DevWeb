@@ -9,6 +9,7 @@
   "author": "Jofre Tomas",
   "license": "ISC",
   "dependencies": {
-    "boxicons": "^2.1.4"
+    "boxicons": "^2.1.4",
+    "toastr": "^2.1.4"
   }
 }

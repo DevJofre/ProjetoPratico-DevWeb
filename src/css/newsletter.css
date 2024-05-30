@@ -1,0 +1,79 @@
+.section-letter {
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+  gap: 1.5rem;
+}
+
+.letter.text,
+.letter.envio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.letter-envio {
+  flex: 1 1 17rem;
+}
+
+.letter-text {
+  flex: 1 1 17rem;
+}
+
+.letter.text h2 {
+  margin-top: 0;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 100px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 30px;
+  overflow: hidden;
+
+  background: #9bf0bd;
+  height: auto;
+  width: 150px;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(56, 56, 56, 0.8);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
